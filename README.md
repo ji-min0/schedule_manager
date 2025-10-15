@@ -28,6 +28,9 @@
 └── Makefile                  # 편리한 명령어 모음
 ```
 
+---
+
+
 ## 🚀 빠른 시작
 ### 1. 환경 준비
 
@@ -37,8 +40,8 @@
 
 ### 2. 프로젝트 클론
 ```
-git clone https://github.com/your-username/myschedule.git
-cd myschedule
+git clone https://github.com/jimin-0/schedule_manager.git
+cd schedule_manager
 ```
 
 ### 3. Docker로 MySQL 실행
@@ -68,6 +71,9 @@ make run
 myschedule
 ```
 
+---
+
+
 ## 💾 데이터베이스 스키마
 ```
 CREATE TABLE schedules (
@@ -80,6 +86,9 @@ CREATE TABLE schedules (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+---
+
 
 ## 🧪 사용 예시
 ```
@@ -95,6 +104,9 @@ CREATE TABLE schedules (
 일정이 추가됨.
 ```
 
+---
+
+
 ## ⚙️ Makefile 명령어 요약
 
 ### 명령어	설명
@@ -107,6 +119,9 @@ CREATE TABLE schedules (
 - make install	파이썬 패키지 설치
 - make run	프로그램 실행
 
+---
+
+
 ## 📦 패키지 정보
 
 setup.py에 등록된 정보:
@@ -115,6 +130,9 @@ setup.py에 등록된 정보:
 - 설명: 일정 관리 프로그램
 - 설치 필요: pymysql, cryptography
 - 콘솔 명령어: myschedule
+
+---
+
 
 ## 📌 참고 사항
 - start_datetime과 end_datetime은 yyyymmddhhmmss 형식으로 입력
